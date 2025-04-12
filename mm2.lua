@@ -143,7 +143,7 @@ local HttpService = game:GetService("HttpService")
  
          revealCooldowns[player.UserId] = currentTime
  
-         game:GetService("TextChatService").ChatInputBarConfiguration.TargetTextChannel:SendAsync("I'm using vertex")
+         game:GetService("TextChatService").ChatInputBarConfiguration.TargetTextChannel:SendAsync("I'm using Arctic")
      end
  end
  
@@ -167,7 +167,7 @@ local HttpService = game:GetService("HttpService")
      end
      local func, err = loadstring(scriptContent)
      if not func then
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/universal"))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Vayron2456/uni/refs/heads/main/uni.lua"))()
          return
      end
      success, result = pcall(func)
